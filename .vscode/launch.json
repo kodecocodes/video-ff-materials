@@ -1,0 +1,68 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "02-final",
+      "cwd": "02-create-meteormania-game/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "02-starter",
+      "cwd": "02-create-meteormania-game/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "03-final",
+      "cwd": "03-learn-flame-s-core-concepts/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "03-starter",
+      "cwd": "03-learn-flame-s-core-concepts/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "04-final",
+      "cwd": "04-add-components-to-meteormania/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "04-starter",
+      "cwd": "04-add-components-to-meteormania/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "05-final",
+      "cwd": "05-enable-debug-mode-in-components/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "05-starter",
+      "cwd": "05-enable-debug-mode-in-components/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "06-final",
+      "cwd": "06-challenge-add-saucer-component/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "06-starter",
+      "cwd": "06-challenge-add-saucer-component/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+  ]
+}

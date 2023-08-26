@@ -27,6 +27,7 @@
 ///  IN THE SOFTWARE.
 
 import 'dart:async';
+import 'dart:math';
 import 'dart:ui';
 
 import 'package:flame/components.dart';
@@ -90,25 +91,29 @@ class MeteormaniaGame extends FlameGame {
 
   void addEnemies() {
     final meteorites = List.generate(manager.level, (i) {
-      final meteoriteSize = i <= 1 ? MeteoriteSize.big : MeteoriteSize.small;
-      final spriteSize = meteoriteSize == MeteoriteSize.big
-          ? Meteorite.bigSize.toSize()
-          : Meteorite.smallSize.toSize();
+      final isBigMeteorite = Random().nextBool();
+
+      if (isBigMeteorite) {
+        final spriteSize = Meteorite.bigSize.toSize();
+        final (meteoriteX, meteoriteY) = randomPosition(
+          spriteSize.width,
+          spriteSize.height,
+          Spaceship.spaceshipSize.toSize(),
+        );
+        return Meteorite.big()
+          ..anchor = Anchor.center
+          ..position = Vector2(meteoriteX, meteoriteY);
+      }
+
+      final spriteSize = Meteorite.smallSize.toSize();
       final (meteoriteX, meteoriteY) = randomPosition(
         spriteSize.width,
         spriteSize.height,
         Spaceship.spaceshipSize.toSize(),
       );
-
-      if (meteoriteSize == MeteoriteSize.big) {
-        return Meteorite.big()
-          ..anchor = Anchor.center
-          ..position = Vector2(meteoriteX, meteoriteY);
-      } else {
-        return Meteorite.small()
-          ..anchor = Anchor.center
-          ..position = Vector2(meteoriteX, meteoriteY);
-      }
+      return Meteorite.small()
+        ..anchor = Anchor.center
+        ..position = Vector2(meteoriteX, meteoriteY);
     });
 
     _world.addAll(meteorites);

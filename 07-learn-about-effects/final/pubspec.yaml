@@ -1,0 +1,28 @@
+name: meteormania
+description: Kodeco learning assets for Flame video course.
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ^3.10.6
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.8.2
+  # TODO: Include flame_audio
+
+dev_dependencies:
+  flutter_lints: ^2.0.2
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/audio/music/
+    - assets/audio/sfx/
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: assets/fonts/PressStart2P-Regular.ttf

@@ -64,5 +64,161 @@
       "request": "launch",
       "type": "dart"
     },
+    {
+      "name": "07-final",
+      "cwd": "07-learn-about-effects/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "07-starter",
+      "cwd": "07-learn-about-effects/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "08-final",
+      "cwd": "08-move-meteorites-around/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "08-starter",
+      "cwd": "08-move-meteorites-around/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "09-final",
+      "cwd": "09-understand-user-input/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "09-starter",
+      "cwd": "09-understand-user-input/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "10-final",
+      "cwd": "10-add-bullet-component/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "10-starter",
+      "cwd": "10-add-bullet-component/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "11-final",
+      "cwd": "11-rotate-the-spaceship/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "11-starter",
+      "cwd": "11-rotate-the-spaceship/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "12-final",
+      "cwd": "12-challenge-add-movement-to-saucer/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "12-starter",
+      "cwd": "12-challenge-add-movement-to-saucer/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "13-final",
+      "cwd": "13-play-sound-effects/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "13-starter",
+      "cwd": "13-play-sound-effects/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "14-final",
+      "cwd": "14-understand-collision-between-components/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "14-starter",
+      "cwd": "14-understand-collision-between-components/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "15-final",
+      "cwd": "15-attack-saucers/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "15-starter",
+      "cwd": "15-attack-saucers/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "16-final",
+      "cwd": "16-break-down-meteorites/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "16-starter",
+      "cwd": "16-break-down-meteorites/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "17-final",
+      "cwd": "17-add-a-heads-up-display/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "17-starter",
+      "cwd": "17-add-a-heads-up-display/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "18-final",
+      "cwd": "18-make-a-game-menu/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "18-starter",
+      "cwd": "18-make-a-game-menu/starter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "19-final",
+      "cwd": "19-challenge-create-a-game-over-overlay/final",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "19-starter",
+      "cwd": "19-challenge-create-a-game-over-overlay/starter",
+      "request": "launch",
+      "type": "dart"
+    },
   ]
 }
